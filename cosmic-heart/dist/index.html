@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0d14" />
+    <title>Cosmic Heart — 气息 · 星轨 · 同心</title>
+    <script type="module" crossorigin src="/assets/index-iwhha92i.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-D-q_42rQ.css">
+  </head>
+  <body>
+    <div id="app" class="app-root">
+      <!-- Three.js renderer will mount here -->
+    </div>
+
+    <!-- Fog overlay for the "哈气起雾/擦拭" highlight -->
+    <canvas id="fogCanvas" class="fog-canvas" aria-label="雾面擦拭层"></canvas>
+
+    <!-- HUD UI -->
+    <div id="hud" class="hud">
+      <div class="hud-row">
+        <button id="btnSound" class="btn">开启声音</button>
+        <button id="btnFog" class="btn">吹一口气</button>
+        <button id="btnTap" class="btn">Tap 节拍</button>
+      </div>
+      <div class="hint">
+        轻擦雾面，看见星星；点按节拍，感受星空脉动。
+      </div>
+      <div class="readout">
+        <span id="bpmLabel">BPM: —</span>
+      </div>
+    </div>
+
+  </body>
+</html>
